@@ -1,0 +1,134 @@
+.sliderImg{
+  max-width: 100%;
+  height: 674.5px;
+}
+
+ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
+  display: block;
+}
+
+/* The Image container */
+.img-hover-zoom {
+  height: 160px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
+  padding-bottom: 0 !important;
+}
+/* Brightness-zoom Container */
+.img-hover-zoom--brightness img {
+transition: transform 2s, filter 1.5s ease-in-out;
+transform-origin: center center;
+filter: brightness(70%);
+}
+
+/* The Transformation */
+.img-hover-zoom--brightness:hover img {
+filter: brightness(100%);
+transform: scale(1.3);
+}
+
+
+.details:hover{
+  background-color: #84C2E4 !important;
+  color: white;
+}
+
+.botton-footer{
+  background-color: #282A2B;
+}
+
+.page-title-bar{
+  background-image: URL("../img/page_title_bg.png");
+}
+.contact-address{
+  border-style: dashed;
+  border-color: #1E73BE;
+  background-color: #EAEAEA;
+}
+
+.table-font{
+  font-size: 12px;
+}
+
+
+
+/* bikash css */
+
+.mainDiv{
+
+    text-align: center;
+    /* margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px; */
+    background-color: lightgray;
+}
+.mainDiv img{
+	width: 10%;
+	margin-top:10px;
+
+}
+.thank-text {
+	margin-top: 0px;
+	font-size: 20px;
+  margin-bottom:2px;
+}
+.bkashBody{
+  width: 80%;
+   background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow:3px 3px 1px  purple inset;
+  margin:0 auto;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.text-red{
+	color: red;
+	margin-top: 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.amount-text{
+	padding:0px;
+	margin:0px;
+	bottom: 0px;
+	color: #fc0377;
+	font-size: 20px;
+}
+.number-text{
+	top:0px;
+	padding:0px;
+	margin:0px;
+	color: #fc0377;
+	font-size: 35px;
+}
+.trxid-text{
+	color: blue;
+	font-size: 20px;
+}
+
+.input-field{
+	width: 50%;
+ padding: 14px 20px;
+  margin: 15px 0;
+  border: 1px solid purple;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px 3px #b2cbdc;
+}
+.button-design{
+  background-color: lightgray;
+  color: purple;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: 2px solid #329ea8;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  box-shadow: 0 0 3px 3px #b2cbdc;
+  font-weight: bold;
+
+}
+.bottom-text{
+	font-size: 20px;
+}
